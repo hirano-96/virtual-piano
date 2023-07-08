@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Viutual Keyboad w/ HTML, CSS & JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <!-- CSSとアイコンのインポート  -->
+    <link rel="stylesheet" href="keyboard/css/Keyboard.css">
+    <link rel="stylesheet" href="keyboard/css/skyblue.css">
+
+</head>
+
+<body>
+    <h1 style="text-align: center; margin-top: 50px;">Viutual Piano</h1>
+    <p style="text-align: center; font-size: 10px;">
+        ここでは下記のことができます<br>
+        ・鍵盤を押下で音を鳴らす<br>
+        ・鳴らした音の音階を表示する<br>
+        音域は88鍵ピアノの真ん中のドから3オクターブ分です（一番左のラが440Hz）<br>
+        <br>
+        <！下記のことはできません！> <br>
+            ・鍵盤押下中、音を鳴らし続ける<br>
+            ・鳴らした音を記憶して再生する
+    </p>
+    <textarea class="use-keyboard-input"
+        style="position: absolute; top:250px; left: 300px; right:300px; width:800px;"></textarea>
+
+
+    <!-- ソースの定義 -->
+    <script src="Keyboard.js"></script>
+</body>
